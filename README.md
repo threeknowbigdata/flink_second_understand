@@ -1,0 +1,2 @@
+# flink_second_understand
+该集中专注于让读者秒懂Flink组件，包含Flink实战代码和文档、200个Flink教程知识点，Flink Datastream、Flink Table、Flink Window、Flink State、Flink Checkpoint、Flink Metrics、Flink Memory、Flink on standalone /yarn/k8s、Flink SQL、Flink CEP、Flink CDC、Flink UDF、PyFlink、Flink新特性、Flink Partition、Flink Memory等知识点。详细链接请看：https ://mp.weixin.qq.com/mp /appmsgalbum?__biz=Mzg5NDY3NzIwMA==&amp;action=getalbum&amp;album_id=2038088622687469575#wechat_redirect
