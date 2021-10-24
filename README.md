@@ -7,20 +7,21 @@
 麻烦走过路过的的各位朋友们给这个项目点个 star，真的写了好久，大家的 Star 就是对我坚持下来最大的一种鼓励！我会一直持续更新这个项目的。
 
 
-![image-20211024104933359](D:\flink_second_understand\picture\image-20211024104933359.png)
+![](https://files.mdnice.com/user/19005/1bec1e12-a144-4ede-84d1-ea5c45504b7e.png)
 
 
 ## Flink 系列博文
 
 
- 项目文档全部首发公众号：**3分钟秒懂大数据**，想获取更多大数据组件技术，关注后查看更多！
+欢迎大家添加我的微信：**threeknowbigdata**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
-<img src="D:\flink_second_understand\picture\image-20211024105001770.png" alt="image-20211024105001770" style="zoom:50%;" />
 
-也欢迎大家添加博主微信：**threeknowbigdata**,拉你进大数据技术交流群、获取求职、面试、技术进阶等免费福利！
+![](https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png)
 
-<img src="D:\flink_second_understand\picture\image-20211024104953764.png" alt="image-20211024104953764" style="zoom:67%;" />
+扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
 
+
+![](https://files.mdnice.com/user/19005/9b74646c-5950-4a72-ba53-f3755c6ed667.png)
 
 部分 Flink 文章链接如下：
 
@@ -71,6 +72,7 @@
 [深入解读 Flink SQL 1.13功能点，不入坑血亏！](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497193&idx=1&sn=69819b65b150518dec74494cdfdd0063&chksm=c0194c56f76ec540deb6020e6c340fcb89c5f331f6d87f9e3b6127c15fbf16274c2e3c535ce7&token=299008056&lang=zh_CN#rd)
 
 [原来全链路时延，Flink官方是这样测试的！](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497188&idx=1&sn=255a13441f54b727cc60462fba8427af&chksm=c0194c5bf76ec54db5233326c87e4dead48e381578bac27e0bc13ae6453bc541e98c388f4fe1&token=299008056&lang=zh_CN#rd)
+
 
 
 
