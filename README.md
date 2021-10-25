@@ -10,6 +10,14 @@
 
 ![](https://files.mdnice.com/user/19005/a4fa823a-6ac5-47e8-a01d-24f4ccf9c994.png)
 
+## FlinkStudy
+
+FlinkStudy 实战代码根据 Flink 实战文档所编写，使用 Flink1.13.2 版本进行代码编程，通过 Java 和 Scala 两种代码进行教学，后面会全部升级为1.14 版本，全文分为 11 章节，目录如下：
+
+
+![](https://files.mdnice.com/user/19005/80ef0685-a70a-492c-b5d0-bb847eeda49e.png)
+
+目前代码和文档均未全文完成，预计需要一到两周时间更新，敬请期待！
 
 
 ## Flink 系列博文
