@@ -1,0 +1,6 @@
+{"database":"test1","schema":"core","tablename":"worker","executeType":"INSERT","before":{},"after":{"name":"smith","Identity Card":"411481187712099078",age":"28","sex":"男","work":"医生"}}
+{"database":"test1","schema":"core","tablename":"worker","executeType":"INSERT","before":{},"after":{"name":"john","Identity Card":"467129308109381218",age":"25","sex":"男","work":"学生"}}
+{"database":"test1","schema":"core","tablename":"worker","executeType":"INSERT","before":{},"after":{"name":"alisi","Identity Card":"312736812912381233",age":"25","sex":"女","work":"警察"}}
+{"database":"test1","schema":"core","tablename":"worker","executeType":"UPDATE","before":{"name":"alisi","Identity Card":"312736812912381233",age":"25","sex":"女","work":"警察"},"after":{"name":"alisi","Identity Card":"312736812912381233",age":"25","sex":"女","work":"教师"}}
+{"database":"test1","schema":"core","tablename":"worker","executeType":"UPDATE","before":{"name":"john","Identity Card":"467129308109381218",age":"25","sex":"男","work":"学生"},"after":{"name":"john","Identity Card":"467129308109381218",age":"26","sex":"男","work":"司机"}}
+{"database":"test1","schema":"core","tablename":"worker","executeType":"DELETE","before":{"name":"smith","Identity Card":"411481187712099078",age":"28","sex":"男","work":"医生"},"after":{}}

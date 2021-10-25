@@ -1,0 +1,10 @@
+1,phone,8899
+1,phone11,10299
+1,phone8,6999
+1,phone6s,3999
+2,xiaomi11,6999
+2,xiaomi10,5999
+2,xiaomi6,2999
+1,phone4s,1299
+3,huawei,5999
+3,huawei40 7999
