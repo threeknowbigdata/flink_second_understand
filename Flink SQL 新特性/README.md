@@ -1,10 +1,10 @@
 大家好，我是土哥
 
-Flink Metrics文档首发公众号：**3分钟秒懂大数据**
+文章首发公众号：**3分钟秒懂大数据**
 
 文章链接如下：
 
-[一口气搞懂「Flink Metrics」监控指标和性能优化，全靠这33张图和7千字（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247499736&idx=1&sn=652f3d94182d56a795a55c495c89ab2b&chksm=c0194667f76ecf71bc1e8543222effd2a9ff940b48e4c14e52a966763ddb074d8f2305bca6ac&token=299008056&lang=zh_CN#rd)
+[深入解读 Flink SQL 1.13功能点，不入坑血亏！](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497193&idx=1&sn=69819b65b150518dec74494cdfdd0063&chksm=c0194c56f76ec540deb6020e6c340fcb89c5f331f6d87f9e3b6127c15fbf16274c2e3c535ce7&token=299008056&lang=zh_CN#rd)
 
 欢迎大家添加我的微信：**threeknowbigdata**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
