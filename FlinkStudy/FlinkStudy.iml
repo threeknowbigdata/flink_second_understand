@@ -88,7 +88,7 @@
     <orderEntry type="module-library">
       <library name="Maven: jdk.tools:jdk.tools:1.6">
         <CLASSES>
-          <root url="jar:///usr/java/jdk1.8.0_202/jre/../lib/tools.jar!/" />
+          <root url="jar:///usr/java/jdk1.8.0_202/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
