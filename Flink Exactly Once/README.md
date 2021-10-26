@@ -9,7 +9,7 @@
 欢迎大家添加我的微信：**threeknowbigdata**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
 
-![](https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png)
+<img src="https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png" style="zoom:67%;" />
 
 扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
 

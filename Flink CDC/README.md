@@ -2,7 +2,7 @@
 
 文章首发公众号：**3分钟秒懂大数据**
 
-文章链接如下：
+文章链接如下 ：
 
 [Flink SQL 1.13—CDC 实践与一致性分析](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497200&idx=1&sn=30acc078e9f30abdd8221e4ba3b508cd&chksm=c0194c4ff76ec5597168b59d5a992c4ee07c170def23e57cc144565d032fa136178c71f2b45f&token=299008056&lang=zh_CN#rd)
 
