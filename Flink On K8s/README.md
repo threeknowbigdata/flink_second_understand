@@ -1,8 +1,10 @@
 大家好，我是土哥
 
-文档尚未发表，敬请关注公众号：**3分钟秒懂大数据**，最近将会发表！
+文章首发公众号：**3分钟秒懂大数据**
 
+文章链接如下：
 
+[8000字详解Flink on K8S 应用提交流程（超详细，建议收藏~）](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247501530&idx=1&sn=80d4bcd5191494f4c358ea30ec36a3c9&chksm=c0197f65f76ef673bc78a4b7ff8e33cbe2e1341b5871c7eae6583328904f40cab652fdb6a059&token=310108235&lang=zh_CN#rd)
 
 欢迎大家添加我的微信：**threeknowbigdata**,拉你进大数据技术交流群！
 
