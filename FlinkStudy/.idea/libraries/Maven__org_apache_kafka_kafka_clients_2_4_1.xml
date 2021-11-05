@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.kafka:kafka-clients:2.4.1">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar!/" />
+      <root url="jar://E:/repository/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-javadoc.jar!/" />
+      <root url="jar://E:/repository/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar!/" />
+      <root url="jar://E:/repository/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
