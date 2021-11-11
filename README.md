@@ -23,10 +23,14 @@ FlinkStudy 实战代码根据 Flink 实战文档所编写，使用 Flink1.13.2 �
 ## Flink 系列博文
 
 
-欢迎大家添加我的微信：**threeknowbigdata**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
+欢迎大家添加我的微信：**youzhiqiangshou_02**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
 
-![](https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png)
+
+![](https://files.mdnice.com/user/19005/d99821cc-90b5-4b46-8d4c-e75618e01d0b.jpg  =40%x)
+
+
+
 
 扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
 
