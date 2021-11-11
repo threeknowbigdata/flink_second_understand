@@ -18,9 +18,9 @@ Flink 实战教程文档部分内容如下：后期会全部更新出来。
 
 希望此篇文章发表后，能帮助到更多的小伙伴，如果觉得对你有帮助，请转发，收藏，在这里，土哥谢谢各位朋友啦！
 
-欢迎大家添加我的微信：**threeknowbigdata**，拉你进大数据技术交流群！
+欢迎大家添加我的微信：**youzhiqiangshou_02**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
-<img src="https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png" style="zoom:50%;" />
+<img src="https://files.mdnice.com/user/19005/b13cfefa-1229-455b-a1c1-f2a3c6207ce8.png" alt="img" style="zoom:80%;" />
 
 扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
 

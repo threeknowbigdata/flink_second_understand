@@ -25,11 +25,7 @@ FlinkStudy 实战代码根据 Flink 实战文档所编写，使用 Flink1.13.2 �
 
 欢迎大家添加我的微信：**youzhiqiangshou_02**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
-
-
-![](https://files.mdnice.com/user/19005/d99821cc-90b5-4b46-8d4c-e75618e01d0b.jpg  =40%x)
-
-
+<img src="https://files.mdnice.com/user/19005/b13cfefa-1229-455b-a1c1-f2a3c6207ce8.png" alt="img" style="zoom:80%;" />
 
 
 扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
@@ -86,7 +82,6 @@ FlinkStudy 实战代码根据 Flink 实战文档所编写，使用 Flink1.13.2 �
 [深入解读 Flink SQL 1.13功能点，不入坑血亏！](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497193&idx=1&sn=69819b65b150518dec74494cdfdd0063&chksm=c0194c56f76ec540deb6020e6c340fcb89c5f331f6d87f9e3b6127c15fbf16274c2e3c535ce7&token=299008056&lang=zh_CN#rd)
 
 [原来全链路时延，Flink官方是这样测试的！](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497188&idx=1&sn=255a13441f54b727cc60462fba8427af&chksm=c0194c5bf76ec54db5233326c87e4dead48e381578bac27e0bc13ae6453bc541e98c388f4fe1&token=299008056&lang=zh_CN#rd)
-
 
 
 

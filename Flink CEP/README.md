@@ -10,10 +10,9 @@
 
 [FlinkCEPSQL使用规则及案例介绍](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497195&idx=2&sn=6d5d381ba521cff2a6208a7513ae84fe&chksm=c0194c54f76ec542b8ff25a5c06b62e92ce93e8568d5a48c1cce5c5bdb894a627532be4b62b3&token=299008056&lang=zh_CN#rd)
 
-欢迎大家添加我的微信：**threeknowbigdata**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
+欢迎大家添加我的微信：**youzhiqiangshou_02**,获取PDF文档解压密码，同时拉你进大数据技术交流群！
 
-
-![](https://files.mdnice.com/user/19005/0b6a4942-feba-4469-b59e-6e467d19d59e.png)
+<img src="https://files.mdnice.com/user/19005/b13cfefa-1229-455b-a1c1-f2a3c6207ce8.png" alt="img" style="zoom:80%;" />
 
 扫码关注微信公众号：**3分钟秒懂大数据**，获取更多大数据、流计算博文信息。
 
