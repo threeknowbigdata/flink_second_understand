@@ -53,34 +53,12 @@
     <orderEntry type="library" name="Maven: org.apache.flink:flink-streaming-java_2.11:1.13.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-file-sink-common:1.13.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-shaded-guava:18.0-13.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-jdbc_2.11:1.13.2" level="project" />
-    <orderEntry type="library" name="Maven: org.testcontainers:postgresql:1.15.1" level="project" />
-    <orderEntry type="library" name="Maven: org.testcontainers:jdbc:1.15.1" level="project" />
-    <orderEntry type="library" name="Maven: org.testcontainers:database-commons:1.15.1" level="project" />
-    <orderEntry type="library" name="Maven: org.testcontainers:testcontainers:1.15.1" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.rnorth.duct-tape:duct-tape:1.0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.rnorth.visible-assertions:visible-assertions:2.1.2" level="project" />
-    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-api:3.2.7" level="project" />
-    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-transport-zerodep:3.2.7" level="project" />
-    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-transport:3.2.7" level="project" />
-    <orderEntry type="library" name="Maven: ru.yandex.clickhouse:clickhouse-jdbc:0.2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
-    <orderEntry type="library" name="Maven: net.jpountz.lz4:lz4:1.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.3" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka_2.11:1.13.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.luben:zstd-jni:1.4.3-1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-base:1.13.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:2.6.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:11.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.mortbay.jetty:jetty:6.1.26" level="project" />
     <orderEntry type="library" name="Maven: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.9" level="project" />
@@ -117,6 +95,9 @@
     </orderEntry>
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-api:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-common:2.6.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.9" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-xc:1.9.13" level="project" />
