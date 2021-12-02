@@ -14,7 +14,7 @@ public class SendDataToKafka {
         KafkaProducer<String, String> producer;
         Properties props = new Properties();
         //指定代理服务器的地址
-        props.put("bootstrap.servers", "192.168.244.129:9092");
+        props.put("bootstrap.servers", "192.168.244.161:9092");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         producer = new KafkaProducer(props);
@@ -26,7 +26,7 @@ public class SendDataToKafka {
           // BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("G:\\pythonWorkSpace\\lightgbm_code\\Flink sql\\application_train.csv")));
           // BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("/home/threeknowbigdata/workspace/javaspace/FlinkStudy/data/lightgbm_test.csv")));
             //BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("data/Home_Credit_0.7968_307507_797_test_data_notitle.csv")));
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("/home/threeknowbigdata/workspace/javaspace/FlinkStudy/src/main/java/com/threeknowbigdata/flink/market_analysis/data/AdClickLog.csv")));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("D:\\flink_second_understand\\FlinkStudy\\src\\main\\java\\com\\threeknowbigdata\\flink\\market_analysis\\data\\AdClickLog.csv")));
             String line = null;
 
             while((line = bufferedReader.readLine()) != null){

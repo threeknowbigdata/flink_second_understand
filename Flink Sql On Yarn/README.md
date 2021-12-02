@@ -4,7 +4,7 @@
 
 文章链接如下：
 
-[33张图解flink sql应用提交（建议收藏！）](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247499065&idx=1&sn=65559142ae6210e937baa8e9f8a1089b&chksm=c0194486f76ecd9028e0113a34b2e633d406ef342eab676043fb159b52f4c10eaefd55a2757b&token=299008056&lang=zh_CN#rd)，公众号文章有一处图形由于疏忽，名字写错了，由于公众号机制，图形无法更改，所有现在已经在PDF中进行更正，经过 rel 处理后，变成 RelNode 节点，并且被转换为opeartion，望悉知！
+[33张图解flink sql应用提交（建议收藏！）](https://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247499065&idx=1&sn=65559142ae6210e937baa8e9f8a1089b&chksm=c0194486f76ecd9028e0113a34b2e633d406ef342eab676043fb159b52f4c10eaefd55a2757b&token=299008056&lang=zh_CN#rd)，公众号文章有一处图形由于疏忽，名字写错了，由于公众号机制，图形无法更改，现在已经在 PDF 中进行更正  望悉知！
 
 
 

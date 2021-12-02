@@ -36,7 +36,7 @@ public class WordCount_kafka {
 
         //Todo 2.准备kafka连接参数
         Properties prop = new Properties();
-        prop.setProperty("bootstrap.servers", "192.168.244.129:9092");
+        prop.setProperty("bootstrap.servers", "192.168.244.161:9092");
         prop.setProperty("group.id", "consumer-group");
         prop.setProperty("auto.offset.reset", "earliest");
         String topic = "adClickLog";
