@@ -31,7 +31,7 @@ public class KafkaToKafka {
                 ")with(" +
                 "'connector' = 'kafka'," +
                 "'topic' = 'test1'," +
-                "'properties.bootstrap.servers' = '192.168.244.129:9092'," +
+                "'properties.bootstrap.servers' = '192.168.244.161:9092'," +
                 "'properties.group.id' = 'testGroup'," +
                 "'scan.startup.mode' = 'earliest-offset'," +
                 "'format' = 'csv'" +
@@ -43,7 +43,7 @@ public class KafkaToKafka {
                 ")with(" +
                 "'connector' = 'kafka'," +
                 "'topic' = 'test2'," +
-                "'properties.bootstrap.servers' = '192.168.244.129:9092'," +
+                "'properties.bootstrap.servers' = '192.168.244.161:9092'," +
                 "'properties.group.id' = 'testGroup'," +
                 "'scan.startup.mode' = 'earliest-offset'," +
                 "'format' = 'csv'" +

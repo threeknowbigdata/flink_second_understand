@@ -30,7 +30,7 @@ public class UniqueVisitor {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         // 2. 读取数据，创建DataStream
-        DataStream<String> inputStream = env.readTextFile("/home/threeknowbigdata/workspace/javaspace/FlinkStudy/src/main/java/com/threeknowbigdata/flink/networkflow_analysis/data/UserBehavior.csv");
+        DataStream<String> inputStream = env.readTextFile("D:\\flink_second_understand\\FlinkStudy\\src\\main\\java\\com\\threeknowbigdata\\flink\\networkflow_analysis\\data\\UserBehavior.csv");
 
         // 3. 转换为POJO，分配时间戳和watermark
         DataStream<UserBehavior> dataStream = inputStream
