@@ -54,6 +54,7 @@ D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\n
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\datastream\kafka\KafkaDemo.java
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\datastream\WordCount_kafka.java
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\table\KafkaToKafka.java
+D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\datastream\state\State_FaultTolerance.java
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\datastream\source\SourceDataStream_Kafka.java
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\datastream\sink\SinkDataStream_Redis.java
 D:\flink_second_understand\FlinkStudy\src\main\java\com\threeknowbigdata\flink\market_analysis\beans\ChannelPromotionCount.java

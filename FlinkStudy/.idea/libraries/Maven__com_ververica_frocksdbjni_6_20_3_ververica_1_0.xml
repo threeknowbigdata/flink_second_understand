@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ververica:frocksdbjni:6.20.3-ververica-1.0">
+    <CLASSES>
+      <root url="jar://E:/repository/com/ververica/frocksdbjni/6.20.3-ververica-1.0/frocksdbjni-6.20.3-ververica-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/com/ververica/frocksdbjni/6.20.3-ververica-1.0/frocksdbjni-6.20.3-ververica-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/com/ververica/frocksdbjni/6.20.3-ververica-1.0/frocksdbjni-6.20.3-ververica-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

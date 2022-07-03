@@ -48,6 +48,8 @@ public class KafkaToKafka {
                 "'scan.startup.mode' = 'earliest-offset'," +
                 "'format' = 'csv'" +
                 ")");
+
+        tEnv.sqlQuery("select * from kafka_sink");
         tEnv.executeSql("insert into kafka_sink select * from kafka_source");
     }
 }

@@ -1,12 +1,13 @@
 package com.threeknowbigdata.flink.networkflow_analysis;
 
+import com.google.common.collect.Lists;
 import com.threeknowbigdata.flink.networkflow_analysis.beans.ApacheLogEvent;
 import com.threeknowbigdata.flink.networkflow_analysis.beans.PageViewCount;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.common.state.MapState;
 import org.apache.flink.api.common.state.MapStateDescriptor;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.shaded.guava18.com.google.common.collect.Lists;
+
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

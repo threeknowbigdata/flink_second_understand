@@ -36,7 +36,7 @@ public class OrderTimeoutWithoutCep {
         env.setParallelism(1);
 
         // 读取数据并转换成POJO类型
-        DataStreamSource<String> stringDataStreamSource = env.readTextFile("/home/threeknowbigdata/workspace/javaspace/FlinkStudy/src/main/java/com/threeknowbigdata/flink/order_pay_detect/data/OrderLog.csv");
+        DataStreamSource<String> stringDataStreamSource = env.readTextFile("D:\\flink_second_understand\\FlinkStudy\\src\\main\\java\\com\\threeknowbigdata\\flink\\order_pay_detect\\data\\OrderLog.csv");
         DataStream<OrderEvent> orderEventStream = stringDataStreamSource.map(new MapFunction<String, OrderEvent>() {
             @Override
             public OrderEvent map(String line) throws Exception {

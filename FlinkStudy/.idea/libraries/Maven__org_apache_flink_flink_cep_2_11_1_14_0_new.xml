@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.flink:flink-cep_2.11:1.14.0-new">
+    <CLASSES>
+      <root url="jar://E:/repository/org/apache/flink/flink-cep_2.11/1.14.0-new/flink-cep_2.11-1.14.0-new.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/org/apache/flink/flink-cep_2.11/1.14.0-new/flink-cep_2.11-1.14.0-new-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/org/apache/flink/flink-cep_2.11/1.14.0-new/flink-cep_2.11-1.14.0-new-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

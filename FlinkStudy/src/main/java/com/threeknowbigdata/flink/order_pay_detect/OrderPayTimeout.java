@@ -6,6 +6,7 @@ import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
+import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
@@ -36,19 +37,21 @@ public class OrderPayTimeout {
         env.setParallelism(1);
 
         // 读取数据并转换成POJO类型
-        DataStreamSource<String> stringDataStreamSource = env.readTextFile("/home/threeknowbigdata/workspace/javaspace/FlinkStudy/src/main/java/com/threeknowbigdata/flink/order_pay_detect/data/OrderLog.csv");
-        DataStream<OrderEvent> orderEventStream = stringDataStreamSource.map(new MapFunction<String, OrderEvent>() {
-                    @Override
-                    public OrderEvent map(String line) throws Exception {
-                        String[] fields = line.split(",");
-                        return new OrderEvent(new Long(fields[0]), fields[1], fields[2], new Long(fields[3]));
-                    }
-                }).assignTimestampsAndWatermarks(new AscendingTimestampExtractor<OrderEvent>() {
-                    @Override
-                    public long extractAscendingTimestamp(OrderEvent element) {
-                        return element.getTimestamp() * 1000L;
-                    }
-                });
+        DataStreamSource<String> stringDataStreamSource = env.readTextFile("D:\\flink_second_understand\\FlinkStudy\\src\\main\\java\\com\\threeknowbigdata\\flink\\order_pay_detect\\data\\OrderLog.csv");
+        KeyedStream<OrderEvent, Long> orderEventStream = stringDataStreamSource.map(new MapFunction<String, OrderEvent>() {
+            @Override
+            public OrderEvent map(String line) throws Exception {
+                String[] fields = line.split(",");
+                return new OrderEvent(new Long(fields[0]), fields[1], fields[2], new Long(fields[3]));
+            }
+        }).assignTimestampsAndWatermarks(new AscendingTimestampExtractor<OrderEvent>() {
+            @Override
+            public long extractAscendingTimestamp(OrderEvent element) {
+                return element.getTimestamp() * 1000L;
+            }
+        }).keyBy(OrderEvent::getOrderId);
+
+        System.out.println(orderEventStream);
 
         // 1. 定义一个带时间限制的模式
         Pattern<OrderEvent, OrderEvent> orderPayPattern = Pattern
@@ -63,14 +66,15 @@ public class OrderPayTimeout {
                     public boolean filter(OrderEvent value) throws Exception {
                         return "pay".equals(value.getEventType());
                     }
-                })
-                .within(Time.minutes(15));
+                }).notOccur(Time.minutes(15));
 
         // 2. 定义侧输出流标签，用来表示超时事件
         OutputTag<OrderResult> orderTimeoutTag = new OutputTag<OrderResult>("order-timeout"){};
 
+
+
         // 3. 将pattern应用到输入数据流上，得到pattern stream
-        PatternStream<OrderEvent> patternStream = CEP.pattern(orderEventStream.keyBy(OrderEvent::getOrderId), orderPayPattern);
+        PatternStream<OrderEvent> patternStream = CEP.pattern(orderEventStream, orderPayPattern);
 
         // 4. 调用select方法，实现对匹配复杂事件和超时复杂事件的提取和处理
         SingleOutputStreamOperator<OrderResult> resultStream = patternStream

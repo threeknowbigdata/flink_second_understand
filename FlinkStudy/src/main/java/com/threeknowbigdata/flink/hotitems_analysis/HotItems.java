@@ -1,6 +1,7 @@
 package com.threeknowbigdata.flink.hotitems_analysis;
 
 
+import com.google.common.collect.Lists;
 import com.threeknowbigdata.flink.hotitems_analysis.beans.ItemViewCount;
 import com.threeknowbigdata.flink.networkflow_analysis.beans.UserBehavior;
 import org.apache.flink.api.common.functions.AggregateFunction;
@@ -9,7 +10,7 @@ import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.shaded.guava18.com.google.common.collect.Lists;
+
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -42,15 +43,15 @@ public class HotItems {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         // 2. 读取数据，创建DataStream
-//        DataStream<String> inputStream = env.readTextFile("D:\\Projects\\BigData\\UserBehaviorAnalysis\\HotItemsAnalysis\\src\\main\\resources\\UserBehavior.csv");
+//      DataStream<String> inputStream = env.readTextFile("D:\\Projects\\BigData\\UserBehaviorAnalysis\\HotItemsAnalysis\\src\\main\\resources\\UserBehavior.csv");
 
         Properties properties = new Properties();
-        properties.setProperty("bootstrap.servers", "192.168.244.129:9092");
+        properties.setProperty("bootstrap.servers", "192.168.244.131:9092");
         properties.setProperty("group.id", "consumer");
         properties.setProperty("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.setProperty("auto.offset.reset", "earliest");
-        FlinkKafkaConsumerBase<String> hotitems = new FlinkKafkaConsumer<String>("hotitems", new SimpleStringSchema(), properties).setStartFromEarliest();
+        FlinkKafkaConsumerBase<String> hotitems = new FlinkKafkaConsumer<String>("UserBehavior", new SimpleStringSchema(), properties).setStartFromEarliest();
         DataStream<String> inputStream = env.addSource(hotitems);
 
 
