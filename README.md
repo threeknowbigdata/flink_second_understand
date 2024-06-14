@@ -4,6 +4,8 @@
 
 为了帮助更多从事大数据行业的小伙伴，能快速学会 Flink 组件，并且找到一份满意的大数据工作，在这里我将自己所写的 Flink 实战代码、Flink 面经、Flink 系列博文、大数据系列面经整理出来发送给大家！
 
+[大数据各组件面经及技术文章](https://github.com/threeknowbigdata/bigdata_interview_notes)
+
 麻烦走过路过的的各位朋友们给这个项目点个 star，真的写了好久，大家的 Star 就是对我坚持下来最大的一种鼓励！我会一直持续更新这个项目的。
 
 ![](https://files.mdnice.com/user/19005/a4fa823a-6ac5-47e8-a01d-24f4ccf9c994.png)
